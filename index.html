@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisoner record form</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body bgcolor="#ECFFDC">
+    <style>
+        h1{
+            -webkit-text-fill-color: #023020;
+            text-align: center;
+        }
+        h2{
+            -webkit-text-fill-color: brown;
+            text-align: center;
+        }
+        h3{
+            -webkit-text-fill-color: #023020;
+        }
+    </style>
+    <h1>NIGERIAN PRISON SERVICE, YOLA COMMAND, ADAMAWA STATE</h1>
+    <h2>Inmate Basic Comprehensive Printout</h2>
+    <h3><u>Criminal record form</u> </h3>
+    <form action="submit" method="post">
+        <div>
+            <label for="First name"><i><b>First Name</b></i>  </label>
+               <input type="text" name="firstname" id="name"  placeholder="First name" required>
+            <label for="Lame Name"><i><b>Last Name</b></i> </label>
+                <input type="text" name="lastname" id="name" placeholder="Last name" required>
+             <label for="Username"><i><b>Username</b></i> </label>
+                 <input type="text" name="Username" id="name" placeholder="Username">
+         </div>
+         <div>
+            <label for="Date of birth"><i><b>Date of birth</b></i></label>
+                 <input type="date" name="date of birth" id="date of birth">
+            <label for="phone number"><i><b> phone number </b></i>
+                <input type="number" name="phone number" id="phone number" placeholder="write your phone number"> </label>
+        </div>
+        <div>
+            <label for="gender"><i><b> Male/man </b></i>
+                <input type="checkbox" name="gender" id="gender"> </label>
+            <label for="gender"><i><b> Female/woman </b></i> </label>
+                <input type="checkbox" name="gender" id="gender"> 
+        </div>
+        <div>
+            <label for="status"><i><b>Single</b></i>
+                <input type="checkbox" name="Status" id="Status"> </label>
+            <label for="Status"><i><b>Married</b></i>
+                <input type="checkbox" ame="Status" id="Status"> </label>
+            <label for="Status"><i><b>Devorced</b></i>
+                <input type="checkbox" name="Status" id="Status"> </label>
+            <label for="Status"><i><b>Others</b></i> </label>
+                <input type="checkbox" name="Status" id="Status">
+        </div>
+        <div>
+            <label for="Id number"><i><b>ID number</b></i> </label>
+                <input type="number" name="id number" id="id number" placeholder="ID number">
+        </div>
+        <div>
+            <label for="charge"><i><b> Charge</b></i> </label>
+                <input type="text" name="charge" id="charge" placeholder="Charge">
+        </div>
+        <div>
+            <label for="crime details"><i><b>Crime Details</b></i> </label>
+                <textarea id="offense" rows="2" cols="100"> </textarea>
+        </div>
+        <div>
+            <label for="sentence length"><i><b>Sentence Length</b></i> </label>
+                <input type="number" name="sentence length" id="sentence length" placeholder="Sentence Length">
+        </div>
+        <div>
+            <label for="next of kin"><i><b>Next of kin</b></i> </label>
+                <input type="text" name="next of kin" id="next of kin" placeholder="Next of kin">
+        </div>
+        <div>
+            <label for nationality><i><b> nationality </b></i> </label>
+                <input type="nationality" name="nationality" id="nationality" placeholder="write your nationality">
+        </div>
+            <input type="button" value="sumbit">
+    </form>
+</body>
+</html>
